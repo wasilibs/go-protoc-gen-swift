@@ -1,5 +1,5 @@
 version: v1
 plugins:
-  - plugin: swift
-    out: ../build/buf/swift
-    path: ["go", "run", "../cmd/protoc-gen-swift"]
+- plugin: swift
+  out: ../out/buf/swift
+  path: ["go", "run", "../cmd/protoc-gen-swift"]
